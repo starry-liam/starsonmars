@@ -14,21 +14,15 @@ export default function Navbar() {
           className="inline-flex items-center justify-center hover:opacity-80 transition-opacity"
           aria-label="Go to homepage"
         >
-          <Image
-            src="/horizonHlogoNOBG.png"
-            alt="Horizon Logo"
-            width={40}
-            height={40}
-            priority
-          />
+          
         </Link>
         <div className="flex items-center gap-1 sm:gap-2">
           {[
             { href: "/", label: "Home" },
             { href: "/about", label: "About" },
-            { href: "/boards", label: "Boards" },
-            { href: "/contact", label: "Contact" },
-            { href: "/sponsors", label: "Sponsors" },
+            { href: "/github", label: "Github" },
+            { href: "/projects", label: "Projects" },
+            { href: "/stars", label: "Stars" },
           ].map(({ href, label }) => (
             <Link
               key={href}

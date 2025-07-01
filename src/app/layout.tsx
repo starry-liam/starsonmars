@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://horizonavionics.org'),
+  metadataBase: new URL('https://starsonmars.space'),
   title: {
-    default: "Horizon Avionics | Open Source Flight Computers",
+    default: "Stars On Mars | Liam Gessman's Personal Website",
     template: "%s | Horizon Avionics"
   },
-  description: "First ever fully open source flight computer. Built by teenagers for rocket enthusiasts, featuring advanced telemetry, data logging, thrust vector control and more.",
+  description: "Liam Gessman's Personal Website.",
   keywords: [
     "flight computer",
     "open source",
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     "rocketry",
     "rocket science"
   ],
-  authors: [{ name: "Horizon Avionics Team" }],
-  creator: "Horizon Avionics Team",
-  publisher: "Horizon Avionics",
+  authors: [{ name: "Liam Gessman" }],
+  creator: "Liam Gessman",
+  publisher: "Liam Gessman",
   robots: {
     index: true,
     follow: true,
@@ -46,10 +46,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://horizonavionics.org",
-    siteName: "Horizon Avionics",
-    title: "Horizon Avionics | Open Source Flight Computer",
-    description: "First ever fully open source flight computer. Built by teenagers for rocket enthusiasts, featuring advanced telemetry, data logging, thrust vector control and more.",
+    url: "https://starsonmars.space",
+    siteName: "Stars On Mars",
+    title: "Stars On Mars | Liam Gessman's Personal Website",
+    description: "Stars On Mars is the personal website of Liam Gessman, showcasing his projects, interests, and experiences in the world of technology and rocketry.",
     images: [{
       url: "/horizonHlogoNOBG.png",
       width: 800,
@@ -59,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Horizon Avionics | Open Source Flight Computer",
-    description: "First ever fully open source flight computer. Built by teenagers for rocket enthusiasts, featuring advanced telemetry, data logging, thrust vector control and more.",
+    title: "Stars On Mars | Liam Gessman's Personal Website",
+    description: "Stars On Mars is the personal website of Liam Gessman, showcasing his projects, interests, and experiences in the world of technology and rocketry.",
     images: ["/horizonHlogoNOBG.png"],
     creator: "@HorizonAvionics",
   },
@@ -82,7 +82,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="theme-color" content="#1e293b" />
-        <link rel="canonical" href="https://horizon-avionics.org" />
+        <link rel="canonical" href="https://starsonmars.space" />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         <Navbar />
